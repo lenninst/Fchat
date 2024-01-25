@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_floating_bottom_bar/flutter_floating_bottom_bar.dart';
 
 import 'HomePage.dart';
 
@@ -12,13 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.amber,
-        ),
+      title: 'Fchat',
+      debugShowCheckedModeBanner: false,
         // useMaterial3 is deprecated, so it's better to remove it
-      ),
       home: const MyHomePage(title: 'Inicio de sesión'),
     );
   }
@@ -47,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController passwordController = TextEditingController();
   
   bool _verificarCredencial(){
-    return emailController.text == 'lenin@fchat.com' && passwordController.text == 'admin';
+    return emailController.text == '1' && passwordController.text == 'a';
   }
   
   @override
