@@ -1,9 +1,10 @@
 import 'dart:convert';
+import 'dart:js';
 import 'package:flutter/material.dart';
 import 'package:flutter_floating_bottom_bar/flutter_floating_bottom_bar.dart';
 import 'package:http/http.dart' as http;
 import 'Games.dart';
-import 'pages/profile.dart';
+import 'profile.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -24,15 +25,15 @@ class HomePage extends StatelessWidget {
                   },
                   icon: CircleAvatar(
                     backgroundImage: NetworkImage(
-                      'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png',
+                      'https://i.pinimg.com/originals/37/8a/27/378a270e775265622393da8c0527417e.jpg',
                       ),
                     ),
                   ),
               ],
-              ),
-            body: MyBody(), 
             ),
-          );
+            body: MyBody(), 
+          ),
+        );
     }
 }
 
@@ -154,16 +155,16 @@ class MyBody extends StatelessWidget {
                             onPressed: () {},
                             ),
                           ],
-                          ),
-                          ],
-                          ),
-                          );
+                        ),
+                      ],
+                    ),
+                  );
                 },
-                );
+              );
             }
-            },
-            ),
-            );
+          },
+        ),
+      );
     }
 
   Future<List<Games>> _getGames() async {
@@ -200,9 +201,4 @@ class MyBody extends StatelessWidget {
   }
 
 }
-
-
-
-
-
 

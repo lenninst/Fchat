@@ -1,0 +1,22 @@
+<categorias>
+
+    <categoria>
+        <titulo>Valorant</titulo>
+        <imagen>https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/6/5/ctsejxmdtw9inp8zqqqd/valorant</imagen>
+        <descripcion>Derrota a los radiantes con tus amigos!</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>PUBG</titulo>
+        <imagen>https://cdn1.epicgames.com/spt-assets/53ec4985296b4facbe3a8d8d019afba9/pubg-battlegrounds-1lbll.jpg</imagen>
+        <descripcion>Encuentra compañeros para jugar en equipo!</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>Fortnite</titulo>
+        <imagen>https://cdn2.unrealengine.com/ua-fnbr-header-bg-nb2-1920x1080-f6515bc41b32.jpeg</imagen>
+        <descripcion>Invita a tus amigos y sobrevivan como equipo!</descripcion>
+    </categoria>
+
+</categorias>
+

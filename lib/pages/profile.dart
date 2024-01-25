@@ -1,11 +1,12 @@
 import 'dart:convert';
+import 'package:fchat/pages/ChatScreen.dart';
+import 'package:fchat/pages/HomePage.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 
 import 'editarPerfil.dart';
 import 'usuario.dart';
 
-// Definir las clases Usuarios y Games según tus necesidades
 
 class Profile extends StatelessWidget {
   @override
@@ -16,6 +17,17 @@ class Profile extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('My perfil'),
+           actions: <Widget>[ 
+                IconButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => EditarPerfil()),
+                      );
+                  },
+                  icon: Icon(Icons.settings),
+                  ),
+              ],
         ),
         body: ProfileBoby(),
       ),
@@ -50,6 +62,18 @@ class ProfileBoby extends StatelessWidget {
               ],
             ),
           ),
+
+          SizedBox(height: 5.0,),
+          Text( 
+            'Mis amigos',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+                ),
+            ),
+          SizedBox(height: 5.0,),
+
+
           Expanded(
             child: FutureBuilder<List<Usuarios>>(
               future: _mostrarUsuarios(),
@@ -78,7 +102,12 @@ class ProfileBoby extends StatelessWidget {
                                 backgroundImage: NetworkImage('https://avatar.iran.liara.run/public'),
                               ) ,
                               trailing: Icon(Icons.sms),
-                              onTap: () => print('Click en usuario'),
+                              onTap: (){
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => ChatScreen()),
+                                  );
+                              }
                               ),
                             Divider(),
                             ],
@@ -117,11 +146,11 @@ class ProfileBoby extends StatelessWidget {
         onPressed: (){
           Navigator.push(
             context, 
-            MaterialPageRoute(builder: (context) => EditarPerfil()),
+            MaterialPageRoute(builder: (context) => HomePage()),
             );
             },
 
-        child: Text('Editar'),
+        child: Text('Juegos disponibles'),
         ),
     ];
   }

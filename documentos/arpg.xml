@@ -1,0 +1,23 @@
+<categorias>
+
+    <categoria>
+        <titulo>Diablo 3</titulo>
+        <imagen>https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png</imagen>
+        <descripcion>Disfruta de la expansión Reaper of Souls</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>Diablo 4</titulo>
+        <imagen>https://blz-contentstack-images.akamaized.net/v3/assets/blt77f4425de611b362/blt6d7b0fd8453e72b9/646e720a71d9db111a265e8c/d4-open-graph_001.jpg</imagen>
+        <descripcion>Forma una guild y defiendan Santuario!</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>Path Of Exile</titulo>
+        <imagen>https://cdn.akamai.steamstatic.com/steam/apps/238960/capsule_616x353.jpg?t=1705890259</imagen>
+        <descripcion>Disfruta de esta creación inspirada en la saga Diablo junto a tus amigos</descripcion>
+    </categoria>
+
+    
+</categorias>
+

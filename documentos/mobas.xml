@@ -1,0 +1,20 @@
+<categorias>
+    <categoria>
+        <titulo>League of Legends</titulo>
+        <imagen>https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b</imagen>
+        <descripcion>Encuentra a más jugadores de League of Legends y explora la grieta del invocador!</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>Smite</titulo>
+        <imagen>https://cdn.cloudflare.steamstatic.com/steam/apps/386360/header.jpg?t=1706011563</imagen>
+        <descripcion>Derrota a los dioses junto a tus amigos!</descripcion>
+    </categoria>
+
+    <categoria>
+        <titulo>Heroes of the storm</titulo>
+        <imagen>https://static.heroesofthestorm.com/images/global/fb-share-1fcc54becc.jpg</imagen>
+        <descripcion>Disfruta de una épica batalla en grupo con los personajes más queridos de Warcraft.</descripcion>
+    </categoria>
+
+</categorias>
